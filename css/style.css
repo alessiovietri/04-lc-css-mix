@@ -1,0 +1,76 @@
+#special-div {
+    width: 600px;
+    height: 300px;
+    background-color: lightcoral;
+
+    /* border: 10px solid red; */
+    /* OPPURE */
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: red; */
+
+    /* border-top: 10px solid red; */
+    /* OPPURE */
+    /* border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: red;
+    border-right: 20px dashed yellow;
+    border-bottom: 30px dotted green;
+    border-left: 40px groove blue; */
+
+    /*
+        Spessore su tutti e 4 i lati:
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    */
+    /* border-width: 10px; */
+    /*
+        Il primo valore si riferisce ai bordi top e bottom, il secondo ai bordi left e right:
+        top: 10px;
+        right: 20px;
+        bottom: 10px;
+        left: 20px;
+    */
+    /* border-width: 10px 20px; */
+    /*
+        Il primo valore si riferisce al bordo top, il secondo ai bordi left e right, il terzo al bordo bottom:
+        top: 10px;
+        right: 20px;
+        bottom: 30px;
+        left: 20px;
+    */
+    /* border-width: 10px 20px 30px; */
+    /*
+        Il primo valore si riferisce al bordo top, il secondo al bordo right, il terzo al bordo bottom, il quarto al bordo left:
+        top: 10px;
+        right: 20px;
+        bottom: 30px;
+        left: 40px;
+     */
+    border-width: 10px 20px 30px 40px;
+    border-style: solid;
+    border-color: red;
+
+    /* border-radius: 50%; */
+
+
+
+    /* padding: 10px 20px 30px 40px; */
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+
+
+
+    /* margin: 10px 20px 30px 40px; */
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+
+    margin-left: auto;
+    margin-right: auto;
+}
